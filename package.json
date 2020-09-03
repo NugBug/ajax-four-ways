@@ -1,0 +1,27 @@
+{
+  "name": "ajax-four-ways",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "live-server": "^1.2.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-shell-plugin": "^0.5.0"
+  }
+}
